@@ -6,16 +6,16 @@ var connection;
 
 if (process.env.JAWSDB_URL)
 {
-	connection = mysql.createConnection(process.env.JAWSDB_URL);
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
 }
 else
 {
-	connection = mysql.createConnection(
+    connection = mysql.createConnection(
 	{
-		host: 'localhost',
-		user: 'root',
-		password: 'jeff00',
-		database: 'burgers_db'
+		host: 'us-cdbr-iron-east-02.cleardb.net',
+		user: 'bd973a01a0abbc',
+		password: 'bd2ce921',
+		database: 'heroku_6b3c7e799dbaffb'
 	});
 };
 
